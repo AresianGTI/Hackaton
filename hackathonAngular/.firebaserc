@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "hackathonangular": {
+      "hosting": {
+        "hackathonAngular": [
+          "hackathonangular"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "hackathonangular"
+  }
+}

@@ -1,2 +1,0 @@
-# Hackaton
-Creating example Project
