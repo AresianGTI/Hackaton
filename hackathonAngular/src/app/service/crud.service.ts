@@ -15,9 +15,8 @@ export class CrudService {
       return this.fireservices.collection('Azubi').add(AzubiX);
   }
 
-  public getAllAzubis() {
-
-
+  public getAllAzubis(AzubiX) {
+      return this.fireservices.collection('Azubi').get(AzubiX);
   }
 
 }

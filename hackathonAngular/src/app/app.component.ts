@@ -9,7 +9,6 @@ import { AngularFirestore } from '@angular/fire/firestore';
 export class AppComponent {
 
 
-
   title = 'hackathonAngular';
 }
 //Herz der Anwendung

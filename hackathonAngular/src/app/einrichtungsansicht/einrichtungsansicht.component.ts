@@ -22,6 +22,7 @@ sendung = this.store.collection("test").valueChanges({idField: 'id'});
 
   
   ngOnInit(): void {
+    
   }
 
   sendData(){

@@ -1,1 +1,23 @@
-<p>azubiansicht works!</p>
+<nav class="navbar navbar-dark">
+</nav>
+<h1> Das ist die azubiansicht</h1>
+<div class="container">
+    <div class="row">
+        <input type="text" class="form-control" [(ngModel)]="azu.name" placeholder="Gebe deinen Vornamen ein">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" [(ngModel)]="azu.vorname" placeholder="Gebe deinen Nachnamen ein">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" [(ngModel)]="azu.stammeinrichtung" placeholder="Gebe deine Stammeinrichtung ein">
+    </div>
+    <div class="form-group">
+        <button mat-button class="btn btn-primary" (click)="createAzubi()" [disabled]="!azu.name || !azu.vorname || !azu.stammeinrichtung">
+        Speichern in Firestore</button>
+    </div>
+    
+
+
+
+
+</div>

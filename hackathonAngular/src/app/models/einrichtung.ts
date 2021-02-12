@@ -5,16 +5,16 @@ import { Iazubi } from "./azubi";
 
 export interface Ieinrichtung{
     name: string;
-    id: number;
+    id: string;
 
 }
 
  export class einrichtung implements Ieinrichtung{
     name: string;
-    id: number;
+    id: string;
 
 }
-
+    
 // class azubi2 implements Iazubi{
 //     name: string;
 //     vorname: string;
