@@ -1,0 +1,14 @@
+[
+    {
+        "einrichtungsname": "name",
+        "ID": "ID",
+        "Azubis": {
+            "azubiID":"",
+            "azubiID2":""
+            }
+    },
+    {
+        "einrichtungsname": "name",
+        "ID": "ID"
+    }
+]
