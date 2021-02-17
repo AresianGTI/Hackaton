@@ -9,6 +9,7 @@ import {AngularFirestoreModule} from '@angular/fire/firestore';
 import {AngularFireModule} from '@angular/fire';
 import {FormsModule} from'@angular/forms';
 import {CrudService} from './service/crud.service'; //Crud Srevice Import. Der Ordner ist auf der selben Ebene
+import {AngularFireAuthModule} from '@angular/fire/auth';
 
 
 
@@ -38,6 +39,7 @@ import { environment } from 'src/environments/environment';
     AngularFirestoreModule,
     AngularFireModule.initializeApp(environment.firebase),
    // CrudService muss bei providers rein
+   AngularFireAuthModule
   ],
   providers: [CrudService],
   bootstrap: [AppComponent]

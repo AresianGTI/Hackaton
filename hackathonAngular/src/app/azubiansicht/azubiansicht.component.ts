@@ -44,6 +44,9 @@ export class AzubiansichtComponent implements OnInit {
     this.crudservice.getAllAzubis
   }
 
+  // fetchDAta: function(){
+    
+  // }
 
   ngOnInit(): void {
 
